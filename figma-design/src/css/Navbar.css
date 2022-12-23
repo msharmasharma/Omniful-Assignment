@@ -44,6 +44,7 @@
   top: 31.04%;
   bottom: 31.04%;
   border-radius: 0px;
+  cursor: pointer;
 }
 
 .boltback {
@@ -53,17 +54,20 @@
   margin-top: 12px;
   margin-left: -5px;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .boltset {
   margin-top: -7px;
   margin-left: -1px;
+  cursor: pointer;
 }
 .bolt {
   color: #ffab00;
   font-size: 11px;
   display: inline-block;
   margin-top: -10%;
+  cursor: pointer;
 }
 
 .quick {
@@ -77,6 +81,7 @@
   letter-spacing: 0em;
   text-align: left;
   color: #222222;
+  cursor: pointer;
 }
 
 .quickdrop {
@@ -85,6 +90,7 @@
   color: #000000;
   margin-left: -10px;
   margin-top: 2px;
+  cursor: pointer;
 }
 
 .navright {
@@ -109,6 +115,7 @@
   width: 30px;
   height: 18px;
   margin-top: 7px;
+  cursor: pointer;
 }
 .eng {
   width: 49px;
@@ -121,6 +128,7 @@
   color: #222222;
   text-align: right;
   margin-top: 7px;
+  cursor: pointer;
 }
 .noti {
   width: 42px;
@@ -138,6 +146,7 @@
   margin-top: 2px;
   margin-left: 4px;
   color: #222222;
+  cursor: pointer;
 }
 
 .dot {
@@ -164,4 +173,5 @@
   margin-top: 2px;
   margin-left: 4px;
   color: #222222;
+  cursor: pointer;
 }

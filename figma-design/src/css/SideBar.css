@@ -1,0 +1,96 @@
+.sidebar {
+  width: 70px;
+  height: 832px;
+  margin-left: 0px;
+  background: #ffffff;
+  /* border-right: 1px solid black; */
+}
+
+.first {
+  margin-top: 58px;
+  height: 40px;
+  width: 40px;
+  margin-left: 16px;
+  margin-top: 76px;
+  border-radius: 0px;
+}
+
+.omniimage {
+  height: 100%;
+  width: 100%;
+}
+
+.second {
+  margin-left: 16px;
+  height: 40px;
+  width: 40px;
+  margin-top: 7.53px;
+}
+
+.hover:hover {
+  background: linear-gradient(90deg, #5468fa 0%, rgba(84, 104, 250, 0.6) 100%);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.home {
+  font-size: 15px;
+  color: #000000;
+  margin-top: 13px;
+  margin-left: 13px;
+}
+
+.third {
+  margin-left: 16px;
+  height: 40px;
+  width: 40px;
+  margin-top: 21.75px;
+}
+.dollar {
+  font-size: 15px;
+  color: #000000;
+  margin-top: 13px;
+  margin-left: 13px;
+}
+
+.fourth {
+  margin-left: 16px;
+  height: 40px;
+  width: 40px;
+  margin-top: 21.75px;
+}
+
+.timeline {
+  font-size: 15px;
+  color: #000000;
+  margin-top: 13px;
+  margin-left: 13px;
+}
+
+.fifth {
+  margin-left: 16px;
+  height: 40px;
+  width: 40px;
+  margin-top: 21.75px;
+}
+
+.inventory {
+  font-size: 15px;
+  color: #000000;
+  margin-top: 13px;
+  margin-left: 13px;
+}
+
+.line {
+  width: 42px;
+  height: 2px;
+  margin-left: 16px;
+  border-radius: 1px;
+  margin-top: 21.75px;
+}
+
+.mainline {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #f2f2f2;
+}

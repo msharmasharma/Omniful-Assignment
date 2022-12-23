@@ -1,0 +1,111 @@
+.mainbody {
+  width: 266px;
+  height: 832px;
+  background: #ffffff;
+  margin-top: 56px;
+  border-left: 1px solid rgba(84, 104, 250, 0.1);
+  border-right: 1px solid rgba(84, 104, 250, 0.1);
+}
+
+.settingheader {
+  width: 84px;
+  height: 30px;
+  margin-top: 24px;
+  margin-left: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #222222;
+}
+
+.box {
+  display: flex;
+}
+.delivery {
+  font-size: 15px;
+  margin-left: 16.67px;
+  margin-top: 37.67px;
+  cursor: pointer;
+}
+
+.apps {
+  width: 114px;
+  height: 18px;
+  margin-left: 8.67px;
+  color: #333333;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.down {
+  width: 7.75px;
+  height: 4.31px;
+  margin-top: 52.95px;
+  margin-left: 88.21px;
+  color: #000000;
+  transform: rotate(-180deg);
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.expand {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.list {
+  width: 266px;
+  border: none;
+  background: none;
+}
+
+.droplist {
+  display: flex;
+  margin-left: -41px;
+  width: 266px;
+  height: 40px;
+  margin-top: 11px;
+  cursor: pointer;
+}
+
+.droplist:hover {
+  background-color: rgba(84, 104, 250, 0.06);
+}
+
+.delivery2 {
+  font-size: 15px;
+  margin-left: 29.67px;
+  margin-top: 13.67px;
+}
+
+.sublist {
+  height: 18px;
+  width: 118px;
+  border-radius: nullpx;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+  margin-top: 12px;
+  margin-left: 12.67px;
+}
+
+.sublist:hover {
+  color: #222222;
+}
+
+.top {
+  margin-top: 15px;
+}
+.hubmanage {
+  margin-top: 100px;
+}
