@@ -1,3 +1,6 @@
+.mainall {
+  display: flex;
+}
 .databody {
   display: flex;
 }

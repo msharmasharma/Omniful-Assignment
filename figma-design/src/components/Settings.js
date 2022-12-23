@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "../css/Settings.css";
 export const Settings = () => {
   const [space, setSpace] = useState(true);
+  const [transone, setTransOne] = useState(true);
   const [trans, setTrans] = useState(true);
   return (
     <div className="mainbody">
@@ -43,7 +45,12 @@ export const Settings = () => {
                   local_shipping
                 </span>
               </div>
-              <div class="sublist">Sales channel Apps</div>
+              <Link to={"/sales"}>
+                {" "}
+                <div class="sublist" onClick={() => setSpace(true)}>
+                  Sales channel Apps
+                </div>
+              </Link>{" "}
             </li>
             <li className="droplist">
               <div>
@@ -64,7 +71,7 @@ export const Settings = () => {
               class="material-symbols-outlined delivery"
               id="dropdownMenuButton1"
               data-bs-toggle="dropdown"
-              aria-expanded="false"
+              // aria-expanded="false"
             >
               local_shipping
             </span>{" "}
@@ -94,7 +101,9 @@ export const Settings = () => {
                   local_shipping
                 </span>
               </div>
-              <div class="sublist">Hubs</div>
+              <Link to={"/hubs"}>
+                <div class="sublist">Hubs</div>
+              </Link>
             </li>
             <li className="droplist">
               <div>

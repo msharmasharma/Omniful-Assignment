@@ -1,0 +1,193 @@
+.salesmain {
+  border: 1px solid red;
+  width: 1176px;
+  height: 832px;
+  margin-top: 57px;
+  font-family: "Montserrat";
+}
+
+.aboveheader {
+  display: flex;
+}
+
+.heads {
+  height: 20px;
+  width: 159px;
+  margin-left: 16px;
+  margin-top: 26px;
+  border-radius: nullpx;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+}
+
+.horizon {
+  height: 36px;
+  width: 36px;
+  left: 1460px;
+  top: 74px;
+  border-radius: 4px;
+  position: absolute;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.morehori {
+  height: 4px;
+  width: 16px;
+  left: 7px;
+  top: 7px;
+  border-radius: 0px;
+  position: absolute;
+  color: #5468fa;
+}
+
+.saleheader {
+  display: flex;
+  margin-top: 14px;
+  margin-left: 16px;
+  margin-bottom: 0px;
+}
+
+.integrated {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  width: 126px;
+  padding: 6px 12px 6px 12px;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.integrated:hover {
+  border-bottom: 1px solid #5468fa;
+}
+
+.inti {
+  margin-left: 12px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  border-radius: nullpx;
+  width: 64px;
+  height: 18px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+  cursor: pointer;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.inti:hover {
+  color: #5468fa;
+}
+
+.allchannels {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  width: 126px;
+  left: 0px;
+  top: 0px;
+  padding: 6px 12px 6px 12px;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.allchannels:hover {
+  border-bottom: 1px solid #5468fa;
+}
+
+.comingsoon {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  width: 126px;
+  margin-top: 0px;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.comingsoon:hover {
+  border-bottom: 1px solid #5468fa;
+}
+.cmng {
+  width: 82px;
+}
+
+.har {
+  margin-top: 0px;
+}
+
+.twl {
+  height: 18px;
+  width: 26px;
+  border-radius: 8px;
+  padding: 5px 8px 4px 8px;
+  background: rgba(84, 104, 250, 0.1);
+  font-family: "Montserrat";
+  color: black;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.twl:hover {
+  background: #5468fa;
+  color: #ffffff;
+}
+
+.oneeight {
+  height: 18px;
+  width: 31px;
+  left: 100px;
+  top: 6px;
+  border-radius: 8px;
+  padding: 4px 8px 4px 8px;
+  background: rgba(84, 104, 250, 0.1);
+  border-radius: 8px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 10px;
+  letter-spacing: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.oneeight:hover {
+  background: #5468fa;
+  color: #ffffff;
+}
+
+.nine {
+  height: 18px;
+  width: 23px;
+  border-radius: 8px;
+  padding: 4px 8px 4px 8px;
+  background: rgba(84, 104, 250, 0.1);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  cursor: pointer;
+}
+.nine:hover {
+  background: #5468fa;
+  color: #ffffff;
+}
