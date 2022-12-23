@@ -1,0 +1,109 @@
+.nav {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 94.1%;
+  background: #ffffff;
+  border-bottom: 1px solid #eef0ff;
+  height: 56px;
+  width: 1512px;
+  border-radius: 0px;
+  font-family: "poppins";
+}
+
+.navinside {
+  display: flex;
+}
+
+.navbox {
+  width: 158px;
+  height: 30px;
+  margin-top: 12px;
+  margin-right: 789px;
+  margin-left: 340px;
+  border: 1.0578px solid #f7f7f7;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.linkbolt {
+  display: flex;
+}
+
+.link {
+  left: 10.21%;
+  right: 10.21%;
+  top: 31.04%;
+  bottom: 31.04%;
+}
+
+.boltback {
+  background-color: white;
+  width: 11px;
+  height: 11px;
+  border-radius: 50px;
+  margin-left: -10px;
+  margin-top: 12px;
+}
+
+.boltset {
+  margin-top: -7px;
+  margin-left: -1px;
+}
+.bolt {
+  color: #ffab00;
+  font-size: 11px;
+  display: inline-block;
+  margin-top: -10%;
+}
+
+.quick {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.quickdrop {
+}
+
+.navright {
+  display: flex;
+  margin-top: 12px;
+}
+.engflag {
+  display: flex;
+  width: 111px;
+  height: 32px;
+  top: 12px;
+  left: 1287px;
+  background: #ffffff;
+  border-radius: 2px;
+}
+
+.imgs {
+  width: 30px;
+  height: 18px;
+  margin-right: 8px;
+}
+.eng {
+  margin-right: 37px;
+  width: 49px;
+  height: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #222222;
+  text-align: right;
+}
+.noti {
+  margin-right: 12px;
+}
