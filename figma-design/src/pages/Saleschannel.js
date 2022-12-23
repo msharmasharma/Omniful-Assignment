@@ -125,6 +125,64 @@ export const Saleschannel = () => {
           <div className="bottom"> Salla</div>
         </div>
       </div>
+
+      {/*  */}
+      {/*  */}
+
+      <div className="beforchanneleight">
+        <div className="yellow"></div>
+        <div className="channeleight">Market Places (4)</div>
+      </div>
+      <div className="allgrids">
+        <div className="boxes">
+          <div className="active">Active</div>
+          <div>
+            <img
+              className="amazon"
+              src="https://s3-alpha-sig.figma.com/img/6115/222f/2967cf9468cd8054708e1a10bb134a8d?Expires=1672617600&Signature=baNW3YpToRNzxFWT2aeaZmZ1tKdIVl2XHk4lC5hNocO1svpBi5LvSL8m~mRZXbXqw-uuBJUlBgIcOFBkvtdoIrK1QA2LAjQScUbAG3hLsuj~BBQFxQgNGvVNlDugK7cnf4wRZ8rSTN~IC~afzd0fCbcZT3yTav7Pq-yJq-YyCTrO~i3BQw5r8lYvCUCTwSBWpPxKImrzvjLPCGKRZyHimiJeZUXtNqpJw-m-qR4tIp6sK8qORkHpkOOVP6y38X4fB83BWNDRjR3LzwX5uzJpV~UIElU0knL2Q1BwDyQk8mEIrNMk~-nEBwsZ8TmzwlBhXdTP-awv6TFr0G61Sy3s4g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt=""
+            />
+          </div>
+          <div className="custom">Custome Name</div>
+          <div className="bottom">Amazon</div>
+        </div>
+        <div className="boxes">
+          <div className="active">Active</div>
+          <div>
+            <img
+              className="flipkart"
+              src="https://s3-alpha-sig.figma.com/img/ed20/e9b4/c4523f34291145cfa5355995bd4e1585?Expires=1672617600&Signature=aEKNOl7YtLEMMe6UU0dMkCLa7S~vqy6pOBb7m66uCzL8695nRfVU1pP~N3or-SQ3VaOys5EDBdIKVOrFmWqlUlM2lS3s8V5Bn77VB08A0sU3h1NChhmlcaKUJ3LgHyK40lahk7E4sqGaXgNuhhNJhH-hUHFacyslJI-rUMjcD45ImLAZi4CtY7KE8vq89X9HnB5cSQ~TBYcp7FwfRSoIZ7qIXd1fwYvLObq0qNKXHN7FOl6zJCWAWGmCqiGhmZx2RPIPjoOCEW7v1e94jN~Hx7yCIRwtkDvnSJdHFzfLabVzmb~VEo3CSHU-FxGpnLfwNqv7C~YQpvRghiSYFBDffA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt=""
+            />
+          </div>
+          <div className="custom">Custome Name</div>
+          <div className="bottom">Flipkart</div>
+        </div>
+        <div className="boxes">
+          <div className="active">Active</div>
+          <div>
+            <img
+              className="panda"
+              src="https://s3-alpha-sig.figma.com/img/6025/9e8a/9bf4f296eecff8be88237d1fa8ea66c2?Expires=1672617600&Signature=HW9SDLtQNAxPmtFCU5cDhuo9MVSR4bHAlgWET~DPiIaPV5vlZSJhJiyGvZe7wUrgTZIX3u5xmI5b62yKcPXi6x5rLjD3WEDDuXMnKJY6OmneRSLCZbS3SbkbYxhGP4ndHcX8WIO~vGRxpgyRLYtfNpOGYl4K0PVhYF7vXblmcS-iRucUtfH3stJkO4jor13073OEwlX0DYcyuKkSUDQAMrICJIUMxc3E1k7Y4N5GL~X4qK8AIN9vizaAY11~xbSkFqusQDmjotKUwnCHHjfymh~1yxgBPg97~MfZWnsIZ384jBouu10Wqr-NYjrtFtZ3vDRMIymGsFPlU93uMnK5Vg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt=""
+            />
+          </div>
+          <div className="custom">Custome Name</div>
+          <div className="bottom"> Myntra</div>
+        </div>
+        <div className="boxes">
+          <div className="active">Active</div>
+          <div>
+            <img
+              className="panda"
+              src="https://s3-alpha-sig.figma.com/img/6025/9e8a/9bf4f296eecff8be88237d1fa8ea66c2?Expires=1672617600&Signature=HW9SDLtQNAxPmtFCU5cDhuo9MVSR4bHAlgWET~DPiIaPV5vlZSJhJiyGvZe7wUrgTZIX3u5xmI5b62yKcPXi6x5rLjD3WEDDuXMnKJY6OmneRSLCZbS3SbkbYxhGP4ndHcX8WIO~vGRxpgyRLYtfNpOGYl4K0PVhYF7vXblmcS-iRucUtfH3stJkO4jor13073OEwlX0DYcyuKkSUDQAMrICJIUMxc3E1k7Y4N5GL~X4qK8AIN9vizaAY11~xbSkFqusQDmjotKUwnCHHjfymh~1yxgBPg97~MfZWnsIZ384jBouu10Wqr-NYjrtFtZ3vDRMIymGsFPlU93uMnK5Vg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt=""
+            />
+          </div>
+          <div className="custom">Custome Name</div>
+          <div className="bottom">Myntra</div>
+        </div>
+      </div>
     </div>
   );
 };

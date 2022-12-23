@@ -287,7 +287,22 @@
   margin-left: 40px;
   margin-right: 40.89px;
 }
-
+.amazon {
+  width: 150.59px;
+  height: 100px;
+  margin-left: 16px;
+  margin-right: 23.41px;
+  margin-bottom: -39px;
+  margin-top: -15px;
+}
+.flipkart {
+  width: 150.59px;
+  height: 104px;
+  margin-left: 16px;
+  margin-right: 23.41px;
+  margin-bottom: -29px;
+  margin-top: -30px;
+}
 .active {
   height: 20px;
   width: 57px;
