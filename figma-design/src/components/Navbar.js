@@ -43,10 +43,11 @@ export const Navbar = () => {
                 <p className="eng">English</p>
               </div>
               <div className="noti">
-                <span class="material-symbols-outlined">notifications</span>
+                <span class="material-symbols-outlined notiicon">notifications</span>
+                <div className="dot"></div>
               </div>
               <div className="help">
-                <span class="material-symbols-outlined">help</span>
+                <span class="material-symbols-outlined helpicon">help</span>
               </div>
             </div>
           </div>
