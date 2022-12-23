@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "../css/Settings.css";
 export const Settings = () => {
   const [space, setSpace] = useState(true);
-  const [transone, setTransOne] = useState(true);
   const [trans, setTrans] = useState(true);
   return (
     <div className="mainbody">
@@ -32,7 +31,7 @@ export const Settings = () => {
           <div class="down">
             <span
               class={`material-symbols-outlined expand ${
-                space == true ? "" : "expands"
+                space === true ? "" : "expands"
               } `}
             >
               expand_more
@@ -64,7 +63,7 @@ export const Settings = () => {
         </div>
       </div>
 
-      <div class={`dropdown top ${space == true ? "" : "hubmanage"}  `}>
+      <div class={`dropdown top ${space === true ? "" : "hubmanage"}  `}>
         <div className="box">
           <div>
             <span
@@ -88,7 +87,7 @@ export const Settings = () => {
           <div class="down">
             <span
               class={`material-symbols-outlined expand ${
-                trans == true ? "" : "expns"
+                trans === true ? "" : "expns"
               } `}
             >
               expand_more

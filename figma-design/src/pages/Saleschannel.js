@@ -23,6 +23,20 @@ export const Saleschannel = () => {
         </div>
       </div>
       <hr className="har" />
+      <div className="beforchanneleight">
+        <div className="yellow"></div>
+        <div className="channeleight">Sales Channels (8)</div>
+      </div>
+      <div className="allgrids">
+        <div className="boxes">1</div>
+        <div className="boxes">2</div>
+        <div className="boxes">3</div>
+        <div className="boxes">4</div>
+        <div className="boxes">5</div>
+        <div className="boxes">6</div>
+        <div className="boxes">7</div>
+        <div className="boxes">8</div>
+      </div>
     </div>
   );
 };

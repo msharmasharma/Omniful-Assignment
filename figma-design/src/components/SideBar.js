@@ -1,5 +1,4 @@
 import "../css/SideBar.css";
-import { Settings } from "./Settings";
 export const SideBar = () => {
   return (
     <div className="sidebar">
