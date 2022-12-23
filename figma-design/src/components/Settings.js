@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../css/Settings.css";
 export const Settings = () => {
   const [space, setSpace] = useState(true);
+  const [trans, setTrans] = useState(true);
   return (
     <div className="mainbody">
       <p className="settingheader">Settings</p>
@@ -26,13 +27,14 @@ export const Settings = () => {
           >
             Apps & Integration
           </div>
-          <div
-            class="down"
-            // id="dropdownMenuButton1"
-            // data-bs-toggle="dropdown"
-            // aria-expanded="false"
-          >
-            <span class="material-symbols-outlined expand">expand_more</span>
+          <div class="down">
+            <span
+              class={`material-symbols-outlined expand ${
+                space == true ? "" : "expands"
+              } `}
+            >
+              expand_more
+            </span>
           </div>
           <ul class="dropdown-menu list">
             <li className="droplist">
@@ -72,16 +74,18 @@ export const Settings = () => {
             id="dropdownMenuButton1"
             data-bs-toggle="dropdown"
             aria-expanded="false"
+            onClick={() => setTrans(!trans)}
           >
             Hub Management
           </div>
-          <div
-            class="down"
-            // id="dropdownMenuButton1"
-            // data-bs-toggle="dropdown"
-            // aria-expanded="false"
-          >
-            <span class="material-symbols-outlined expand">expand_more</span>
+          <div class="down">
+            <span
+              class={`material-symbols-outlined expand ${
+                trans == true ? "" : "expns"
+              } `}
+            >
+              expand_more
+            </span>
           </div>
           <ul class="dropdown-menu list">
             <li className="droplist">
