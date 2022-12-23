@@ -44,7 +44,7 @@ export const Settings = () => {
                   local_shipping
                 </span>
               </div>
-              <Link to={"/sales"}>
+              <Link className="textdeco" to={"/sales"}>
                 {" "}
                 <div class="sublist" onClick={() => setSpace(true)}>
                   Sales channel Apps
@@ -100,7 +100,7 @@ export const Settings = () => {
                   local_shipping
                 </span>
               </div>
-              <Link to={"/hubs"}>
+              <Link className="textdeco" to={"/hubs"}>
                 <div class="sublist">Hubs</div>
               </Link>
             </li>

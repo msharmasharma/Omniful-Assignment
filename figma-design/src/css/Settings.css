@@ -116,3 +116,6 @@
 .expns {
   transform: rotate(-180deg);
 }
+.textdeco {
+  text-decoration: none;
+}

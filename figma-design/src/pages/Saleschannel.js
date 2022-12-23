@@ -14,11 +14,11 @@ export const Saleschannel = () => {
           <div className="twl">12</div>
         </div>
         <div className="allchannels">
-          <div className="inti">All Channels</div>
+          <div className="intii">All Channels</div>
           <div className="oneeight">118</div>
         </div>
         <div className="comingsoon">
-          <div className="inti cmng">Coming soon</div>
+          <div className="intii cmng">Coming soon</div>
           <div className="nine">9</div>
         </div>
       </div>
