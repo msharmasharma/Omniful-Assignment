@@ -33,7 +33,7 @@ export const Navbar = () => {
                 expand_more
               </span>
             </div>
-            <div className="navright">
+            <div className=" collapse navbar-collapse navright" id="navbarSupportedContent">
               <div className="engflag">
                 <img
                   className="imgs"
@@ -43,7 +43,9 @@ export const Navbar = () => {
                 <p className="eng">English</p>
               </div>
               <div className="noti">
-                <span class="material-symbols-outlined notiicon">notifications</span>
+                <span class="material-symbols-outlined notiicon">
+                  notifications
+                </span>
                 <div className="dot"></div>
               </div>
               <div className="help">
