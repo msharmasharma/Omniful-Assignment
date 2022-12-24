@@ -71,7 +71,9 @@ export const Settings = () => {
                   local_shipping
                 </span>
               </div>
-              <div class="sublist">Shipping Apps</div>
+              <div class="sublist" onClick={() => setSpace(true)}>
+                Shipping Apps
+              </div>
             </li>
           </ul>
         </div>
