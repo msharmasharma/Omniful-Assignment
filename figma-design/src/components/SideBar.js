@@ -1,13 +1,10 @@
 import "../css/SideBar.css";
+import omniful from "../images/omniful.jpeg";
 export const SideBar = () => {
   return (
     <div className="sidebar">
       <div className="first hover">
-        <img
-          className="omniimage"
-          src="https://media.licdn.com/dms/image/C4D0BAQFBw1kM9lSGTQ/company-logo_200_200/0/1602138010036?e=2147483647&v=beta&t=EKiXbPJBi-rZKcwya3jb8wCvKA-EEhU2Lz_1D6AoOt0"
-          alt="omniful"
-        />
+        <img className="omniimage" src={omniful} alt="omniful" />
       </div>
       <div className="second hover">
         <span class="material-symbols-outlined home">home</span>
