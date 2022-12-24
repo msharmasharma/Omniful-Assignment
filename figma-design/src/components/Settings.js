@@ -6,7 +6,21 @@ export const Settings = () => {
   const [trans, setTrans] = useState(true);
   return (
     <div className="mainbody">
-      <p className="settingheader">Settings</p>
+      <div className="setbar">
+        <p className="settingheader">Settings</p>
+        <div className="cornerbox">
+          <div className="upexpand">
+            <span class="material-symbols-outlined expandleft">
+              expand_more
+            </span>
+          </div>
+          <div className="upexpand1">
+            <span class="material-symbols-outlined expandleftmore">
+              expand_more
+            </span>
+          </div>
+        </div>
+      </div>
       <div class="dropdown">
         <div className="box">
           <div>
